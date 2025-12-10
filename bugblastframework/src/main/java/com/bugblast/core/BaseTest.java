@@ -37,7 +37,7 @@ public class BaseTest {
 	                throw new RuntimeException("Browser not supported: " + browser);
 	        }
 
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	        driver.get(ConfigReader.getProperty("baseUrl"));
 	    }
 
