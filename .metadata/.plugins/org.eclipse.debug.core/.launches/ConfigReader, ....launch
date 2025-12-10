@@ -8,8 +8,8 @@
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
         <listEntry value="com.bugblast.core.BaseTest"/>
         <listEntry value="com.bugblast.pages.LoginPage"/>
-        <listEntry value="com.bugblast.config.ConfigReader"/>
         <listEntry value="com.bugblast.tests.LoginTest"/>
+        <listEntry value="com.bugblast.config.ConfigReader"/>
     </listAttribute>
     <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
     <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>

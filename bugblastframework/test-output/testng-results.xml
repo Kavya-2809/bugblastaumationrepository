@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-10T14:29:40 IST" name="Default suite" finished-at="2025-12-10T14:29:50 IST" duration-ms="9566">
+  <suite started-at="2025-12-10T16:19:07 IST" name="Default suite" finished-at="2025-12-10T16:19:18 IST" duration-ms="10535">
     <groups>
     </groups>
-    <test started-at="2025-12-10T14:29:40 IST" name="Default test" finished-at="2025-12-10T14:29:50 IST" duration-ms="9566">
+    <test started-at="2025-12-10T16:19:07 IST" name="Default test" finished-at="2025-12-10T16:19:18 IST" duration-ms="10535">
       <class name="com.bugblast.tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bugblast.tests.LoginTest@413d1baf]" started-at="2025-12-10T14:29:40 IST" name="setUp" finished-at="2025-12-10T14:29:46 IST" duration-ms="5628" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bugblast.tests.LoginTest@413d1baf]" started-at="2025-12-10T16:19:07 IST" name="setUp" finished-at="2025-12-10T16:19:15 IST" duration-ms="7272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin()[pri:0, instance:com.bugblast.tests.LoginTest@413d1baf]" started-at="2025-12-10T14:29:46 IST" name="testValidLogin" finished-at="2025-12-10T14:29:46 IST" duration-ms="441" status="FAIL">
+        <test-method signature="testValidLogin()[pri:0, instance:com.bugblast.tests.LoginTest@413d1baf]" started-at="2025-12-10T16:19:15 IST" name="testValidLogin" finished-at="2025-12-10T16:19:15 IST" duration-ms="90" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[Element <span class="nav-line-2 "> is not reachable by keyboard
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [31f1a44e-476e-4c2b-9963-8f6ed2550d97, sendKeysToElement {value=[Ljava.lang.CharSequence;@3aa3193a, id=fae5b878-0141-4464-b9fc-f859775fba9b}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5576, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (31f1a44e-476e-4c2b-9963-8f6ed2550d97)] -> xpath: //span[contains(@class,'nav-line-2') and contains(.,'Account & Lists')]]
-Session ID: 31f1a44e-476e-4c2b-9963-8f6ed2550d97]]>
+Command: [2d00f7e2-cf7c-45f6-af86-0cad5282055d, sendKeysToElement {value=[Ljava.lang.CharSequence;@3aa3193a, id=80171d97-9ef1-43e5-9fac-c9b6741b4fce}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9008, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (2d00f7e2-cf7c-45f6-af86-0cad5282055d)] -> xpath: //span[contains(@class,'nav-line-2') and contains(.,'Account & Lists')]]
+Session ID: 2d00f7e2-cf7c-45f6-af86-0cad5282055d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <span class="nav-line-2 "> is not reachable by keyboard
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [31f1a44e-476e-4c2b-9963-8f6ed2550d97, sendKeysToElement {value=[Ljava.lang.CharSequence;@3aa3193a, id=fae5b878-0141-4464-b9fc-f859775fba9b}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5576, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (31f1a44e-476e-4c2b-9963-8f6ed2550d97)] -> xpath: //span[contains(@class,'nav-line-2') and contains(.,'Account & Lists')]]
-Session ID: 31f1a44e-476e-4c2b-9963-8f6ed2550d97
+Command: [2d00f7e2-cf7c-45f6-af86-0cad5282055d, sendKeysToElement {value=[Ljava.lang.CharSequence;@3aa3193a, id=80171d97-9ef1-43e5-9fac-c9b6741b4fce}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0, moz:accessibilityChecks: false, moz:buildID: 20251205151434, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9008, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (2d00f7e2-cf7c-45f6-af86-0cad5282055d)] -> xpath: //span[contains(@class,'nav-line-2') and contains(.,'Account & Lists')]]
+Session ID: 2d00f7e2-cf7c-45f6-af86-0cad5282055d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -88,7 +88,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bugblast.tests.LoginTest@413d1baf]" started-at="2025-12-10T14:29:46 IST" name="tearDown" finished-at="2025-12-10T14:29:50 IST" duration-ms="3452" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bugblast.tests.LoginTest@413d1baf]" started-at="2025-12-10T16:19:15 IST" name="tearDown" finished-at="2025-12-10T16:19:18 IST" duration-ms="3119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
