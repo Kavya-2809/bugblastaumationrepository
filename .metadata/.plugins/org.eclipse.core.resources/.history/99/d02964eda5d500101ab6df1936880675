@@ -1,0 +1,52 @@
+package com.bugblast.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage {
+
+    private WebDriver driver;
+
+    // PageFactory locators
+    @FindBy(id = "username")
+    private WebElement usernameField;
+
+    @FindBy(id = "password")
+    private WebElement passwordField;
+
+    @FindBy(id = "loginBtn")
+    private WebElement loginButton;
+
+    @FindBy(id = "errorMsg")
+    private WebElement errorMsg; // Optional, for login errors
+
+    // Constructor
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this); // Initialize elements
+    }
+
+    // Page actions
+    public void enterUsername(String username) {
+        usernameField.sendKeys(username);
+    }
+
+    public void enterPassword(String password) {
+        passwordField.sendKeys(password);
+    }
+
+    public void clickLogin() {
+        loginButton.click();
+    }
+
+    // Validation methods
+    public String getPageTitle() {
+        return driver.getTitle();
+    }
+
+    public String getErrorMessage() {
+        return errorMsg.getText();
+    }
+}

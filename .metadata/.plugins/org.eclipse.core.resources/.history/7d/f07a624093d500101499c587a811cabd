@@ -1,0 +1,5 @@
+package com.bugblast.config;
+
+public class ConfigReader {
+
+}

@@ -1,0 +1,5 @@
+package com.bugblast.tests.smoke;
+
+public class LoginTest {
+
+}
